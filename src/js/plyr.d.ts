@@ -526,7 +526,8 @@ declare namespace Plyr {
 
   interface AdOptions {
     enabled: boolean;
-    publisherId: string;
+    publisherId?: string;
+    tagUrl?: string
   }
 
   interface SpeedOptions {
